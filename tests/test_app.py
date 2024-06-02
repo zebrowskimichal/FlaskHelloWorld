@@ -1,4 +1,4 @@
-from app import app
+from FlaskHelloWorld import app
 client = app.test_client()
 def test():
     response = client.get("/")
